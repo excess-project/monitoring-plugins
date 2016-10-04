@@ -3,14 +3,15 @@ Overview of monitoring plugins available for the ATOM monitoring framework
 
 ## Supported Plug-ins
 
-- [infiniband](c/infiniband/README.md)
-- [meminfo](c/meminfo/README.md)
-- [movidius](c/movidius_arduino)
-- [vmstat](c/vmstat/README.md)
-- [Nvidia GPUs](c/nvidia/README.md)
-- [PAPI-C](c/papi/README.md)
-- [RAPL](c/rapl/README.md)
-- [sensors](c/sensors/README.md)
+- Network monitoring: [infiniband](https://github.com/excess-project/monitoring-agent/blob/master/src/plugins/c/infiniband/README.md)
+- Memory usage: [meminfo](https://github.com/excess-project/monitoring-agent/blob/master/src/plugins/c/meminfo/README.md)
+- Embedded system support (Movidius): [movidius](https://github.com/excess-project/monitoring-agent/blob/master/src/plugins/c/movidius_arduino)
+- Embedded system support (ACME): [acme](https://github.com/excess-project/monitoring-agent/blob/master/src/plugins/c/acme)
+- Virtual memory statistics: [vmstat](https://github.com/excess-project/monitoring-agent/blob/master/src/plugins/c/vmstat/README.md)
+- GPU support: [Nvidia GPUs](https://github.com/excess-project/monitoring-agent/blob/master/src/plugins/c/nvidia/README.md)
+- Standard performance metrics: [PAPI-C](https://github.com/excess-project/monitoring-agent/blob/master/src/plugins/c/papi/README.md)
+- Power and energy monitoring: [RAPL](https://github.com/excess-project/monitoring-agent/blob/master/src/plugins/c/rapl/README.md)
+- CPU temperature data: [sensors](https://github.com/excess-project/monitoring-agent/blob/master/src/plugins/c/sensors/README.md)
 
 
 ## Plug-in Development Tutorial
